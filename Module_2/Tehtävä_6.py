@@ -1,0 +1,10 @@
+import random
+num1 = int(random.randint(0, 9 ))
+num2 = int(random.randint(0, 9))
+num3 = int(random.randint(0, 9))
+print(f"3-digit code: {num1}{num2}{num3}")
+num4 = int(random.randint(1, 6 ))
+num5 = int(random.randint(1, 6))
+num6 = int(random.randint(1, 6))
+num7= int(random.randint(1, 6))
+print(f"4-digit code: {num4}{num5}{num6}{num7}")
