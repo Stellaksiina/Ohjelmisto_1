@@ -1,5 +1,6 @@
 import random
-N = int(input("Kuinka monta satunnaispistettä generoidaan?: "))
+N = int(input("How many points will we generate?: "))
+
 n = 0
 i = 0
 while i < N:
@@ -10,6 +11,5 @@ while i < N:
     i+=1
 pi_likiarvo = 4 * n / N
 print("Approximation of pi:", pi_likiarvo)
-
 
 
